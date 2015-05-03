@@ -483,7 +483,67 @@ input:focus, textarea:focus {
    }
 
 	
+/*annonces*/
+	.titleannonces h2{
+	font-weight: 400;
+		font-size: 2em;
+		color: #16a085;
+		margin-left:20%;
+	}
+	
+	.titleannonces .bylineannonces{
+	letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+		margin-left:20%;
+	}
+	
+	#content1
+{
+	float: left;
+	width: 35%;
+}
 
+#content2
+{
+	float: right;
+	width: 60%;
+}
+
+#contentannonce1
+{
+	float: left;
+	width: 45%;
+	margin-top: 50px;
+	height : 150px;
+	text-align: justify;
+    text-justify: inter-word;
+	border-style: outset;
+    border-width:5px;
+	border-left-color: #1abc9c;
+	border-top-color: #1abc9c;
+	padding: 20px;
+	background-color:#eeeeee;
+}
+
+#contentannonce2
+{
+	float: right;
+	width: 45%;
+	margin-top: 50px;
+	height : 150px;
+	text-align: justify;
+    text-justify: inter-word;
+	border-style: outset;
+    border-width:5px;
+	border-left-color: #1abc9c;
+	border-top-color: #1abc9c;
+	padding: 20px;
+	background-color:#eeeeee;
+	
+}
 
 
 
