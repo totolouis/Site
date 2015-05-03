@@ -81,7 +81,107 @@ hr {
 	display: none;
 }
 
+/*********************************************************************************/
+/* CSS de Flo                                                                    */
+/*********************************************************************************/
 
+#sidebar
+	{
+		float: right;
+		width: 345px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+	
+	
+.on{
+	font-weight: bold;
+}
+
+figure
+{
+	width: 120px;
+	margin: 0 20px 0 0;
+	background: white;
+	border: 10px solid white;
+	-webkit-box-shadow: 0 3px 10px #ccc;
+	-moz-box-shadow: 0 3px 10px #ccc;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 1s ease;
+	position: relative;
+}
+
+figcaption
+{
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+}
+
+figure:hover
+{
+  -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure:focus
+{
+  outline: none;
+  -webkit-transform: rotate(-3deg) scale(1.5); -moz-transform: rotate(-3deg) scale(1.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  z-index: 9999;
+}
+
+#documents_joints{
+	float:left;
+	text-decoration: none;
+  color: #3D261D;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 5px;
+  border-bottom: 3px solid #aaa;
+  outline: none;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  display: block;
+  -webkit-transition-property: border-color;
+  -webkit-transition-duration: 2s;
+  -moz-transition-property: border-color;
+  -moz-transition-duration: 2s;
+  transition-property: border-color;
+  transition-duration: 2s;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: #3D261D;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 5px;
+  border-bottom: 3px solid #aaa;
+  outline: none;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  display: block;
+  -webkit-transition-property: border-color;
+  -webkit-transition-duration: 2s;
+  -moz-transition-property: border-color;
+  -moz-transition-duration: 2s;
+  transition-property: border-color;
+  transition-duration: 2s;
+ }
+ 
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
